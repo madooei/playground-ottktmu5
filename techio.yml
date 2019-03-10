@@ -1,11 +1,11 @@
-title : Java Maven Project
+title : Basics of Recursive Programming (recitation) 
 
 # Table of content
 plan:
-  - title: Welcome # Set the page title (only displayed if your contribution has several pages)
-    statement: markdowns/welcome.md # Set the file path to the page content
-#  - title: Another Page
-#    statement: markdowns/another-page.md
+  - title: Welcome 
+    statement: markdowns/welcome.md 
+  - title: Warm up!
+    statement: markdowns/warmup.md
 
 
 # Settings for your programming projects and the associated Docker images
