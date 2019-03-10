@@ -1,3 +1,5 @@
 
 
-@[Count Patj]({"stubs": ["CountPath.java"]})
+
+
+@[Implement Count Path]({"stubs": ["src/main/java/CountPath.java"],"command": "CountPathTest#test"})
