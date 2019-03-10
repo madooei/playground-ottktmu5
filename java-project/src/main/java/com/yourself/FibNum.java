@@ -1,6 +1,6 @@
+// { autofold
 package com.yourself;
 
-// { autofold
 public class FibNum {
 // }
 // REQUIRES: n >= 0

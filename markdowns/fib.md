@@ -2,7 +2,7 @@ Consider a function that requires more than one recursive call. A simple example
 
 ```java runnable
 // { autofold
-public class FibNum {
+public class Main {
 // }
 // REQUIRES: n >= 0
 // EFFECTS: return the n^th term in Fibonacci sequence

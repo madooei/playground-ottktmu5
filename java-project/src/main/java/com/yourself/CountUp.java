@@ -1,6 +1,6 @@
+// { autofold
 package com.yourself;
 
-// { autofold
 import java.util.Scanner;
 
 public class CountUp {

@@ -1,6 +1,7 @@
+// { autofold
 package com.yourself;
 
-// { autofold
+
 public class CountK {
 // }
 // Goal: count how many different ways one can go up a flight of stairs.

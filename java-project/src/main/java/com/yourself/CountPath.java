@@ -1,6 +1,6 @@
+// { autofold
 package com.yourself;
 
-// { autofold
 public class CountPath {
 // }
 // Goal: count how many different paths one can take in order to get from
