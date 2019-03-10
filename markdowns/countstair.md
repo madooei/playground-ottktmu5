@@ -20,7 +20,7 @@ What do `count_stair(n - 1)` and `count_stair(n - 2)` represent?
 
 Implement a recursive solution for `count_stair`:
 
-@[Implement Count Path]({"stubs": ["src/main/java/com/yourself/CountStair.java"],"command": "com.yourself.CountStairTest#test"})
+@[Implement count_stair]({"stubs": ["src/main/java/com/yourself/CountStair.java"],"command": "com.yourself.CountStairTest#test"})
 
 
 
@@ -32,4 +32,4 @@ Consider a special version of the `count_stair` problem, where instead of taking
 
 Write a function `count_k` that figures out the number of paths for this scenario. Assume $`n`$ and $`k`$ are positive. 
 
-@[Implement Count Path]({"stubs": ["src/main/java/com/yourself/CountK.java"],"command": "com.yourself.CountKTest#test"})
+@[Implement count_k]({"stubs": ["src/main/java/com/yourself/CountK.java"],"command": "com.yourself.CountKTest#test"})
