@@ -1,4 +1,6 @@
-You want to go up a flight of stairs that has $n$ steps. You can either take $1$ or $2$ steps each time. How many different ways can you go up this flight of stairs? Write a function `count_stair` that solves this problem for you. Assume $n$ is positive.
+# Count Stairs
+
+You want to go up a flight of stairs that has $`n`$ steps. You can either take $`1`$ or $`2`$ steps each time. How many different ways can you go up this flight of stairs? Write a function `count_stair` that solves this problem for you. Assume $`n`$ is positive.
 
 Before we start, what’s the base case for this question? 
 
@@ -26,8 +28,8 @@ Implement a recursive solution for `count_stair`:
 
 
 
-Consider a special version of the `count_stair` problem, where instead of taking $1$ or $2$ steps, we are able to take up to and including $k$ steps at a time. 
+Consider a special version of the `count_stair` problem, where instead of taking $`1`$ or $`2`$ steps, we are able to take up to and including $`k`$ steps at a time. 
 
-Write a function `count_k` that figures out the number of paths for this scenario. Assume $n$ and $k$ are positive. 
+Write a function `count_k` that figures out the number of paths for this scenario. Assume $`n`$ and $`k`$ are positive. 
 
 @[Implement Count Path]({"stubs": ["src/main/java/com/yourself/CountK.java"],"command": "com.yourself.CountKTest#test"})

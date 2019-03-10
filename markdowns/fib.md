@@ -26,11 +26,10 @@ public static void main(String[] args) {
 
 This type of recursion is called tree recursion, because it makes more than one recursive call in its recursive case. If we draw out the recursive calls, we see the recursive calls in the shape of an upside-down tree: 
 
-![Screen Shot 2019-03-10 at 11.40.57 AM](assets/Screen Shot 2019-03-10 at 11.40.57 AM.png)
+![](https://github.com/madooei/playground-ottktmu5/blob/master/markdowns/assets/tree.png?raw=true)
 
 We could use loops to write the same procedure. However, problems that are naturally solved using tree recursive procedures are generally difficult to write iteratively. 
 
 As a general rule of thumb, whenever you need to try multiple possibilities at the same time, you should consider using recursion. 
 
-**Counting problems** are a good example of this fact, and in the following exercises we will learn how to 
-solve them. 
+**Counting problems** are a good example of this fact, and in the following exercises we will learn how to solve them. 

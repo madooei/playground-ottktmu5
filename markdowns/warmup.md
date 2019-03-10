@@ -1,10 +1,10 @@
-Create a recursive `countdown` function that takes in an integer `n` and prints out a countdown from $n$ to $1$. 
+Create a recursive `countdown` function that takes in an integer `n` and prints out a countdown from $`n`$ to $`1`$. 
 
 First, think about a base case for the `countdown` function. 
 
 ::: What is the simplest input the problem could be given?
 
-The simpleset input is where there is no need to count down! That is, when `n == 1` we simply print out $1$.
+The simpleset input is where there is no need to count down! That is, when `n == 1` we simply print out $`1`$.
 
 :::
 
