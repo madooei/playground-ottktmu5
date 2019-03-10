@@ -21,29 +21,23 @@ Then, put the base case and the recursive call together, and think about where a
 
 ```java runnable
 // { autofold
-import java.util.Scanner;
-
-public class CountDown {
+public class Main {
 // }
 // REQUIRES: n >= 1
 // EFFECTS: prints out numbers from n to 1
 public static void countdown(int n) {
     // TODO: complete the code here
 }
+
+public static void main(String[] args) {
+    countdown(5);
+}
 // { autofold
-    public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        System.out.println("Enter n:");
-        int n = input.nextInt();
-        System.out.println("Count down ...");
-        countdown(n);
-    }
 }
 // }
 ```
 
-
-?[Is there an easy way to change `countdown` to count up instead?]
+?[Is there an easy way to change "countdown" to count up instead?]
 -[ ] Change the base case
 -[ ] Change the recursive call
 -[x] Change where print statement is
@@ -51,23 +45,18 @@ public static void countdown(int n) {
 
 ```java runnable
 // { autofold
-import java.util.Scanner;
-
-public class CountUp {
+public class Main {
 // }
 // REQUIRES: n >= 1
 // EFFECTS: prints out numbers from 1 to n
 public static void countup(int n) {
-    // TODO; complete the code here
+    // TODO: complete the code here
 }
-    // { autofold
-    public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        System.out.println("Enter n:");
-        int n = input.nextInt();
-        System.out.println("Count down ...");
-        countup(n);
-    }
+
+public static void main(String[] args) {
+    countup(5);
+}
+// { autofold
 }
 // }
 ```
