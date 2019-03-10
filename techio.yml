@@ -4,12 +4,16 @@ title : Basics of Recursive Programming (recitation)
 plan:
   - title: Welcome 
     statement: markdowns/welcome.md 
+  - title: Review 
+    statement: markdowns/recursion.md 
   - title: Warm up!
     statement: markdowns/warmup.md
-  - title: Counting!
-    statement: markdowns/counting.md
+  - title: Tree recursion!
+    statement: markdowns/fib.md
   - title: Counting Path!
     statement: markdowns/countpath.md
+  - title: Exercise!
+    statement: markdowns/countstair.md
 
 # Settings for your programming projects and the associated Docker images
 projects:

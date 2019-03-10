@@ -4,7 +4,7 @@ First, think about a base case for the `countdown` function.
 
 ::: What is the simplest input the problem could be given?
 
-The simpleset input is where there is no need to countdown! That is, when `n == 1` we simply print out $1$.
+The simpleset input is where there is no need to count down! That is, when `n == 1` we simply print out $1$.
 
 :::
 
@@ -40,7 +40,7 @@ public static void main(String[] args) {
 ?[Is there an easy way to change "countdown" to count up instead?]
 -[ ] Change the base case
 -[ ] Change the recursive call
--[x] Change where print statement is
+-[x] Change where the print statement is
 -[ ] All of the above
 
 ```java runnable
