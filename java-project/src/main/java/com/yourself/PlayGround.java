@@ -5,10 +5,12 @@ public class PlayGround {
     // Goal: count how many different ways one can go up a flight of stairs.
     // Constraint: you can take 1 or 2 steps each time.
     // Parameter: n is the number of stairs.
-    // REQUIRES: n > 0
+    // REQUIRES: n >= 0
     // EFFECTS: returns the count of different ways one can go up a flight of stairs.
     public static int count_stair(int n) {
-        if (n == 0 || n == 1) {
+        if (n < 0) {
+            return 0;
+        } else if (n == 0 || n == 1) {
             return 1;
         } else {
             return count_stair(n-1) + count_stair(n-2);
@@ -103,7 +105,8 @@ public class PlayGround {
 
 
     public static void main(String[] args) {
-        test_count_k();
+        test_count_stair();
+        // test_count_k();
     }
 
 }
