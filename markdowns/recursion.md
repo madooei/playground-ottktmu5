@@ -3,6 +3,8 @@
 A _recursive_ function is a function that calls itself. Here’s a recursive function:
 
 ```java
+// REQUIRES: n >= 0
+// EFFECTS: returns n!
 public static long factorial (int n) {
     if (n == 0) {
         return 1;
